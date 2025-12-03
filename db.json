@@ -1,0 +1,192 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@example.com",
+      "password": "admin123",
+      "name": "Arya S"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "Personal Portfolio Website",
+      "description": "A responsive website to showcase personal projects and resume.",
+      "startDate": "2023-01-10",
+      "endDate": "2023-02-01",
+      "status": "active",
+      "technologies": "HTML, CSS, JavaScript, React"
+    },
+    {
+      "id": "2",
+      "name": "E-commerce Backend API",
+      "description": "RESTful API for online shopping platform with user authentication and product management.",
+      "startDate": "2023-03-15",
+      "endDate": "2023-04-30",
+      "status": "inactive",
+      "technologies": "Node.js, Express, MongoDB, JWT"
+    },
+    {
+      "id": "3",
+      "name": "Chat Application",
+      "description": "Real-time chat app with websockets supporting multiple rooms and direct messaging.",
+      "startDate": "2023-05-10",
+      "endDate": "2023-06-05",
+      "status": "active",
+      "technologies": "React, Socket.IO, Node.js, Express"
+    },
+    {
+      "id": "4",
+      "name": "Fitness Tracker Mobile Application",
+      "description": "A mobile app to track workouts, diet, and progress with analytics.",
+      "startDate": "2023-07-01",
+      "endDate": "2023-09-15",
+      "status": "pending",
+      "technologies": "React Native, Firebase, Redux"
+    },
+    {
+      "id": "5",
+      "name": "Blogging Platform",
+      "description": "Full-stack blogging platform with rich text editing, comments and social sharing.",
+      "startDate": "2023-04-01",
+      "endDate": "2023-05-20",
+      "status": "active",
+      "technologies": "Django, PostgreSQL, Docker"
+    },
+    {
+      "id": 6,
+      "name": "Task Management Dashboard",
+      "description": "Web app for team task tracking with drag and drop functionality.",
+      "startDate": "2023-08-01",
+      "endDate": "2023-10-15",
+      "status": "active",
+      "technologies": "Vue.js, Firebase, Tailwind CSS"
+    },
+    {
+      "id": 7,
+      "name": "Weather Forecast App",
+      "description": "Real-time weather app with 7-day forecasts and location-based data.",
+      "startDate": "2023-02-20",
+      "endDate": "2023-03-10",
+      "status": "inactive",
+      "technologies": "React, OpenWeather API, Chart.js"
+    },
+    {
+      "id": 8,
+      "name": "Recipe Sharing Platform",
+      "description": "Social platform for users to share, rate and save cooking recipes.",
+      "startDate": "2023-09-01",
+      "endDate": "2023-12-01",
+      "status": "pending",
+      "technologies": "Next.js, Supabase, Prisma"
+    },
+    {
+      "id": 9,
+      "name": "Expense Tracker",
+      "description": "Personal finance app to track income, expenses and generate reports.",
+      "startDate": "2023-06-15",
+      "endDate": "2023-07-20",
+      "status": "active",
+      "technologies": "Angular, SQLite, D3.js"
+    },
+    {
+      "id": 10,
+      "name": "Video Streaming Service",
+      "description": "Video upload and streaming platform with user playlists.",
+      "startDate": "2023-10-01",
+      "endDate": "2024-02-01",
+      "status": "active",
+      "technologies": "Node.js, AWS S3, FFmpeg"
+    },
+    {
+      "id": 11,
+      "name": "Social Media Analytics",
+      "description": "Dashboard to track social media performance across multiple platforms.",
+      "startDate": "2023-11-01",
+      "endDate": "2023-12-15",
+      "status": "pending",
+      "technologies": "React, GraphQL, Apollo"
+    },
+    {
+      "id": 12,
+      "name": "Online Code Editor",
+      "description": "Real-time collaborative code editor with syntax highlighting.",
+      "startDate": "2023-07-10",
+      "endDate": "2023-08-25",
+      "status": "inactive",
+      "technologies": "Svelte, Monaco Editor, WebSockets"
+    },
+    {
+      "id": 13,
+      "name": "Job Board Platform",
+      "description": "Job listing platform with resume builder and application tracking.",
+      "startDate": "2023-12-01",
+      "endDate": "2024-03-01",
+      "status": "active",
+      "technologies": "Ruby on Rails, Redis, Sidekiq"
+    },
+    {
+      "id": 14,
+      "name": "Music Player Web App",
+      "description": "Progressive web app for music streaming with offline support.",
+      "startDate": "2023-05-01",
+      "endDate": "2023-06-15",
+      "status": "active",
+      "technologies": "PWA, Service Workers, Howler.js"
+    },
+    {
+      "id": 15,
+      "name": "Inventory Management System",
+      "description": "Warehouse management system with barcode scanning and stock alerts.",
+      "startDate": "2023-08-15",
+      "endDate": "2023-11-30",
+      "status": "pending",
+      "technologies": "Laravel, MySQL, Vue.js"
+    },
+    {
+      "id": 16,
+      "name": "Event Booking Platform",
+      "description": "Online platform for event creation, ticketing and attendee management.",
+      "startDate": "2023-09-20",
+      "endDate": "2023-12-20",
+      "status": "active",
+      "technologies": "FastAPI, PostgreSQL, Stripe"
+    },
+    {
+      "id": 17,
+      "name": "AI Chatbot Interface",
+      "description": "Custom chatbot interface with conversation history and analytics.",
+      "startDate": "2023-10-15",
+      "endDate": "2023-11-30",
+      "status": "active",
+      "technologies": "React, OpenAI API, Socket.io"
+    },
+    {
+      "id": 18,
+      "name": "URL Shortener Service",
+      "description": "Custom URL shortener with analytics and custom domain support.",
+      "startDate": "2023-03-01",
+      "endDate": "2023-03-20",
+      "status": "inactive",
+      "technologies": "Express, Redis, MongoDB"
+    },
+    {
+      "id": 19,
+      "name": "Customer Support Ticketing",
+      "description": "Internal ticketing system with SLA tracking and automated responses.",
+      "startDate": "2023-11-10",
+      "endDate": "2024-01-10",
+      "status": "pending",
+      "technologies": "NestJS, TypeORM, RabbitMQ"
+    },
+    {
+      "id": 20,
+      "name": "Photo Gallery App",
+      "description": "Responsive photo gallery with lazy loading and EXIF data viewer.",
+      "startDate": "2023-07-20",
+      "endDate": "2023-08-10",
+      "status": "active",
+      "technologies": "Gatsby, Cloudinary, Framer Motion"
+    }
+  ]
+}
