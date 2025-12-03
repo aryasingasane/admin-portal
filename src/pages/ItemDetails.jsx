@@ -61,12 +61,10 @@ const ItemDetails = () => {
           </p>
         </div>
 
-        {/* Info Section */}
         <div className="grid md:grid-cols-2 gap-6">
-          {/* Timeline */}
-          <div className="bg-slate-50  dark:bg-slate-800 p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-all duration-200">
+          <div className="bg-slate-50  dark:bg-slate-900 p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-all duration-200">
             <div className="text-lg text-gray-800 flex items-center gap-2 mb-3">
-              <span className="text-lg">📅</span>
+              <span className="text-lg"><i class="fa-regular fa-calendar"></i></span>
               <span className="font-medium text-gray-900 dark:text-white">
                 Timeline
               </span>
@@ -84,10 +82,9 @@ const ItemDetails = () => {
             </div>
           </div>
 
-          {/* Tech Stack */}
-          <div className="bg-slate-50  dark:bg-slate-800 p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-all duration-200">
+          <div className="bg-slate-50  dark:bg-slate-900 p-6 rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-all duration-200">
             <div className="text-lg text-gray-800 flex items-center gap-2 mb-3">
-              <span className="text-lg">⚙️</span>
+              <span className="text-lg"><i class="fa-solid fa-code"></i></span>
               <span className="font-medium text-gray-900 dark:text-white">
                 Tech Stack
               </span>
@@ -107,21 +104,20 @@ const ItemDetails = () => {
           </div>
         </div>
 
-        {/* Stats */}
         <div className="grid grid-cols-2 gap-4">
-          <div className="bg-indigo-400 text-white text-center p-6 rounded-xl shadow-md">
-            <div className="text-2xl mb-1">🎯</div>
-            <p className="text-m">Project</p>
+          <div className="bg-indigo-400 dark:bg-indigo-900 dark:hover:bg-indigo-600 text-white text-center p-4 rounded-xl shadow-md">
+            <div className="text-2xl mb-1"><i class="fa-regular fa-file"></i></div>
+            <p className="text-lg">Project</p>
           </div>
 
-          <div className="bg-orange-400 text-white text-center p-6 rounded-xl shadow-md">
-            <div className="text-2xl mb-1">⏱️</div>
-            <p className="text-m">
+          <div className="bg-orange-400 dark:bg-orange-800 text-white text-center p-6 rounded-xl shadow-md">
+            <div className="text-2xl mb-1"><i class="fa-regular fa-clock"></i></div>
+            <p className="text-lg">
               {Math.round(
                 (new Date(data.endDate) - new Date(data.startDate)) /
                   (1000 * 60 * 60 * 24 * 30)
               )}{" "}
-              months
+              months required
             </p>
           </div>
         </div>

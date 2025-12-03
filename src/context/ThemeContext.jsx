@@ -1,5 +1,4 @@
-// src/context/ThemeContext.jsx - NO matchMedia, NO localStorage
-import { createContext, useContext, useState } from 'react';
+import { createContext, useContext, useState } from "react";
 
 const ThemeContext = createContext();
 
@@ -10,7 +9,7 @@ export const ThemeProvider = ({ children }) => {
 
   const toggleTheme = () => {
     setIsDark(!isDark);
-    document.documentElement.classList.toggle('dark');
+    document.documentElement.classList.toggle("dark");
   };
 
   return (

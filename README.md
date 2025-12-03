@@ -1,4 +1,4 @@
-# Nutriiya Admin Portal
+# Admin Portal
 
 ## Overview
 
@@ -8,7 +8,7 @@ This project is a comprehensive admin portal for the Nutriiya application, devel
 
 - **Secure Authentication**: Access to the admin dashboard is protected, with a dedicated login page and route protection for all administrative routes.
 - **Dashboard**: A central hub providing an overview and quick access to different management modules.
-- **Item Management**: Full CRUD (Create, Read, Update, Delete) functionality for application items.
+- **Item Management**: Read and Update functionality for application items (projects).
 - **Dynamic Routing**: Utilizes `react-router-dom` for seamless navigation between different sections of the portal.
 - **Theming**: Supports both light and dark modes, managed globally via a `ThemeContext`.
 - **Lazy Loading**: Pages are lazy-loaded to improve initial load performance.
@@ -22,13 +22,13 @@ This project is a comprehensive admin portal for the Nutriiya application, devel
 - **Styling**: Tailwind CSS, Bootstrap (for specific components/resets)
 - **State Management**: React Context API (`useContext`)
 - **API Client**: Axios
-- **Development Tools**: ESLint, Vite Dev Server
+- **Development Tools**: Vite Dev Server
 - **Mock API**: `json-server` to serve data from `db.json`.
 
 ## Project Structure
 
 ```
-c:\Users\singa\Desktop\Nutriiya\admin-portal-app/
+c:\Users\singa\Desktop\admin-portal-app/
 ├── .gitignore
 ├── db.json
 ├── eslint.config.js

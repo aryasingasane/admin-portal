@@ -1,15 +1,3 @@
-// import React from 'react'
-
-// const UpdateItem = () => {
-//   return (
-//     <div>
-//       <h1>Update item</h1>
-//     </div>
-//   )
-// }
-
-// export default UpdateItem
-
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 
@@ -73,7 +61,7 @@ const UpdateItem = () => {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className="w-full px-4 py-2 border rounded-lg bg-gray-50 focus:ring-2 focus:ring-blue-500"
+              className="w-full px-4 py-2 border rounded-lg bg-gray-50 dark:bg-gray-300 focus:ring-2 focus:ring-blue-500"
               required
             />
           </div>
@@ -86,7 +74,7 @@ const UpdateItem = () => {
               value={formData.description}
               onChange={handleChange}
               rows="3"
-              className="w-full px-4 py-2 border rounded-lg bg-gray-50 focus:ring-2 focus:ring-blue-500"
+              className="w-full px-4 py-2 border rounded-lg bg-gray-50 dark:bg-gray-300 focus:ring-2 focus:ring-blue-500"
               required
             />
           </div>
@@ -100,7 +88,7 @@ const UpdateItem = () => {
                 name="startDate"
                 value={formData.startDate}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border rounded-lg bg-gray-50 focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 py-2 border rounded-lg bg-gray-50 dark:bg-gray-300 focus:ring-2 focus:ring-blue-500"
                 required
               />
             </div>
@@ -112,7 +100,7 @@ const UpdateItem = () => {
                 name="endDate"
                 value={formData.endDate}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border rounded-lg bg-gray-50 focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 py-2 border rounded-lg bg-gray-50 dark:bg-gray-300 focus:ring-2 focus:ring-blue-500"
               />
             </div>
           </div>
@@ -124,7 +112,7 @@ const UpdateItem = () => {
               name="status"
               value={formData.status}
               onChange={handleChange}
-              className="w-full px-4 py-2 border rounded-lg bg-gray-50 focus:ring-2 focus:ring-blue-500"
+              className="w-full px-4 py-2 border rounded-lg bg-gray-50 dark:bg-gray-300 focus:ring-2 focus:ring-blue-500"
               required
             >
               <option value="active">Active</option>
@@ -142,17 +130,16 @@ const UpdateItem = () => {
               value={formData.technologies}
               onChange={handleChange}
               placeholder="HTML, CSS, React"
-              className="w-full px-4 py-2 border rounded-lg bg-gray-50 focus:ring-2 focus:ring-blue-500"
+              className="w-full px-4 py-2 border rounded-lg bg-gray-50 dark:bg-gray-300 focus:ring-2 focus:ring-blue-500"
               required
             />
           </div>
 
-          {/* BUTTONS */}
           <div className="flex gap-4 pt-2">
-            <button 
+            <button
               type="button"
               onClick={() => navigate(-1)}
-              className="w-1/2 py-2 border rounded-lg hover:bg-gray-700  dark:text-white"
+              className="w-1/2 py-2 border rounded-lg hover:bg-slate-300 dark:hover:bg-slate-600  dark:text-white"
             >
               Cancel
             </button>

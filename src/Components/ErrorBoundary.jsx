@@ -27,7 +27,8 @@ class ErrorBoundary extends React.Component {
               Something went wrong.
             </h2>
             <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">
-              An unexpected error occurred while loading this page. You can try again.
+              An unexpected error occurred while loading this page. You can try
+              again.
             </p>
             <button
               onClick={this.handleRetry}
